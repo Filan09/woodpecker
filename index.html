@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.min.css">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Icon -->
@@ -15,14 +15,13 @@
 </head>
 
 <body>
-    <script src="js/scroll.js"></script>
-    <script src="js/burger.js"></script>
+    <script src="js/burger.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <header>
-        <section class="section menu__section">
+        <div class="section menu__section">
             <div class="container menu__container">
                 <button id="nav__btn" aria-hidden="true" aria-label="Меню"></button>
                 <a href="index.html" class="link logo__link">
@@ -30,7 +29,7 @@
                 </a>
                 <nav class="menu">
                     <button class="menu__link exit-btn" aria-label="Закрыть меню">
-                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="29" height="29" viewbox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="2.63623" width="37.2838" height="3.72838" transform="rotate(45 2.63623 0)"
                                 fill="white" />
                             <rect y="26.3636" width="37.2838" height="3.72838" transform="rotate(-45 0 26.3636)"
@@ -45,7 +44,7 @@
                     <a class="link menu__link" href="#price">КОНТАКТЫ</a>
                 </nav>
             </div>
-        </section>
+        </div>
         <section class="section banner__section">
             <div class="bg__banner"></div>
             <div class="container banner__container">
@@ -228,14 +227,12 @@
                     <p class="text" data-aos="fade-up">
                         Цена пиломатериалов (обрезных) зависит от:
                     </p>
-                    <p class="text" data-aos="fade-up">
-                        <ol>
+                    <ol class="text" data-aos="fade-up">
                             <li>Породы древесины, используемой для их производства.</li>
                             <li>Размеров продукции.</li>
                             <li>Сорта изделий.</li>
                             <li>Размера заказываемой партии.</li>
-                        </ol>
-                    </p>
+                    </ol>
                     <p class="text" data-aos="fade-up">
                         Любая доска, может быть, в кратчайшие сроки привезена заказчику. Транспортировка осуществляется не
                         только по России, но и по всему миру. Вы можете купить нужную продукцию, находясь в любой точке
